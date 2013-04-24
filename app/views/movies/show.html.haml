@@ -7,7 +7,7 @@
     Director:
     = @movie.director
     ,  
-    = link_to 'Find Movies With Same Director', same_directors_path(:id => @movie.director)
+    = link_to 'Find Movies With Same Director', same_directors_path,:id => @movie.director
   %li
     Rating:
     = @movie.rating
